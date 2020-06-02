@@ -18,4 +18,9 @@ $(document).ready(function() {
     $("body").removeClass();
     $("body").addClass("dark-mode");
   });
+
+  $("button#light-mode").click(function() {
+    $("body").removeClass();
+    $("body").addClass("light-mode");
+  });
 });
